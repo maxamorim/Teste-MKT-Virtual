@@ -1,0 +1,727 @@
+@font-face {
+   font-family: 'mavenblack-pro';
+   src: url(../fonts/mavenpro/MavenPro-Black.ttf);
+}
+
+@font-face {
+   font-family: 'mavenblack-bold';
+   src: url(../fonts/mavenpro/MavenPro-Bold.ttf);
+}
+
+@font-face {
+   font-family: 'mavenblack-medium';
+   src: url(../fonts/mavenpro/MavenPro-Medium.ttf);
+}
+
+@font-face {
+   font-family: 'mavenblack-regular';
+   src: url(../fonts/mavenpro/MavenPro-Regular.ttf);
+}
+
+body{
+	font-family: 'mavenblack-regular';
+	margin-top: 35px;
+}
+
+
+#custom-nav {
+	height: 35px !important;
+	min-height: 35px !important;
+	max-height: 35px !important;
+	background-color: #f47d31;
+	box-shadow: none;
+	border: none;
+
+}
+
+#navbar{
+	margin-left: 10%;
+}
+
+#navbar ul li a{
+	font-size: 12px;
+	color: #ffffff;
+	margin: 0;
+	padding-top:4px !important; 
+    padding-bottom:0 !important;
+    height: 35px;
+
+}
+
+.opt:hover{
+	background-color: #c66223;
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out; 
+	-o-transition:all .5s ease-in-out; 
+	-ms-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out;
+	font-weight: bold;
+}
+
+.procura-form{
+        padding: 6px 0;
+        background-color: #c66223;
+        width: 200%;
+        height: 35px;
+
+}
+        .procura-form input[type="text"]{
+            width: 70%;	
+            float: left;
+            border: 0;
+            padding-left: 10px;
+            line-height: 20px;
+            background-color: transparent;
+            font-size: 12px;
+            color: #FFF;
+        }	
+
+        ::-webkit-input-placeholder {color: #FFF; line-height: 15px;}
+        :-moz-placeholder {color: #FFF; line-height: 15px;}
+        ::-moz-placeholder {color: #FFF; line-height: 15px;}
+        :-ms-input-placeholder {color: #FFF; line-height: 15px;}
+
+        .procura-form input[type="submit"]{
+        	margin-top: -100px;
+            width: 35px;
+            height: 25px;
+            float: right;
+            border: 0;
+            border-left: 1px solid #FFF;
+            background: url("../img/bt-procura.png") no-repeat center center;
+        }
+
+.sub-nav{
+	margin-top: 45px;
+	background-color: transparent;
+	position: absolute;
+	overflow: auto;
+	float: right;
+	width: 100%;
+	z-index: 999;
+}
+
+.logo{
+	margin-left: 10%;
+	float: left;	
+}
+
+.itens{
+	float: right;
+	margin-right: 10%;
+}
+
+.sub-nav ul li{
+	font-weight: bold;
+	background-color: transparent;
+	letter-spacing: 1px;
+	display: inline;
+    float: left;
+   	margin: 10px;
+    }
+
+.sub-nav a{
+	color: #000000;
+}
+
+.carousel{
+	
+	z-index: 0;
+	width: 100%;
+}
+
+.arrows{
+	margin-top: 125%;
+}
+
+.imagens{
+	margin-top: 40px;
+}
+
+/**Frutas**/
+.frutas{
+	position: relative;
+}
+
+.proposta{
+	margin-top: -50px;
+	position: absolute;
+	width: 93%;
+}
+
+/**Ruiva**/
+.hovereffect-1 {
+  font-size: 12px;
+  color: black;
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: #a60b0b;
+
+}
+
+.hovereffect-1 .overlay {
+  font-size: 12px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+}
+
+.hovereffect-1 img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 10px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffect-1:hover img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect-1 h1, .hovereffect-1 h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 22px;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 0.5em 0;
+  background-color: transparent;
+  margin-top: -20px;
+  margin-left: -40%;
+}
+
+.hovereffect-1 h2{
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.hovereffect-1 h1:after, .hovereffect-1 h2:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
+}
+
+.hovereffect-1:hover h1:after, .hovereffect-1:hover h2:after {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect-1 button, .hovereffect-1 p {
+  color: #000000;
+  opacity: 0;
+  margin-left: -40%;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);
+}
+
+.hovereffect-1 button{
+	font-weight: bold;
+}
+
+.hovereffect-1:hover button, .hovereffect-1:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/**Bob-Esponja**/
+.hovereffect-2 {
+  font-size: 14px;
+  color: black;
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: #e1da13;
+}
+
+.hovereffect-2 .overlay {
+	font-size: 12px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+}
+
+.hovereffect-2 img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 10px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffect-2:hover img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect-2 h1 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 22px;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 0.5em 0;
+  background-color: transparent;
+  margin-top: 50%;
+}
+
+.hovereffect-2 h1:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
+}
+
+.hovereffect-2:hover h1:after {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect-2 button, .hovereffect-2 p {
+  color: #000000;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);
+}
+
+.hovereffect-2 button{
+	font-weight: bold;
+}
+
+.hovereffect-2:hover button, .hovereffect-2:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/**Moda Logo**/
+.hovereffect-3 {
+  font-size: 16px;
+  color: black;
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: #132ce1;
+}
+
+.hovereffect-3 .overlay {
+	font-size: 12px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+}
+
+.hovereffect-3 img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 10px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffect-3:hover img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect-3 h2, .hovereffect-3 h1 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 22px;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 0.5em 0;
+  background-color: transparent;
+  margin-right: -40%;
+}
+
+.hovereffect-3 h1{
+	margin-top: -5%;
+}
+
+.hovereffect-3 h2{
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.hovereffect-3 h2:after, .hovereffect-3 h1:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
+}
+
+.hovereffect-3:hover h2:after, .hovereffect-3:hover h1:after {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect-3 button, .hovereffect-3 p {
+  color: #000000;
+  opacity: 0;
+  margin-right: -40%;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);
+}
+
+.hovereffect-3 button{
+	font-weight: bold;
+}
+
+.hovereffect-3:hover button, .hovereffect-3:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/**Vermelho**/
+.hovereffect-4 {
+  font-size: 12px;
+  color: black;
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: #ff0000;
+}
+
+.hovereffect-4 .overlay {
+	font-size: 12px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+}
+
+.hovereffect-4 img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 10px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffect-4:hover img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect-4 h2, .hovereffect-4 h1 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 22px;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 0.5em 0;
+  background-color: transparent;
+  margin-top: 40%;
+}
+
+.hovereffect-4 h1{
+	margin-top: -5%;
+}
+
+.hovereffect-4 h2{
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.hovereffect-4 h2:after, .hovereffect-4 h1:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
+}
+
+.hovereffect-4:hover h2:after, .hovereffect-4:hover h1:after {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect-4 button, .hovereffect-4 p {
+  color: #000000;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);
+}
+
+.hovereffect-4 button{
+	font-weight: bold;
+}
+
+.hovereffect-4:hover button, .hovereffect-4:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.mapa{
+	margin-top: 100px;
+	width: 100%;
+	position: relative;
+}
+
+.procura{
+	position: absolute;
+    z-index: 2;
+    top: 7.25em;
+    background-color: #FFF;
+    border: 1px solid #000;
+    width: 40%;
+    height: 100px;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.local{
+	height: 55px;
+	width: 200px;
+    float: left;
+    border: 1px solid #000;
+    position: relative;
+    padding: 7px 0 0 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    line-height: 12px;
+    margin: 20px;
+}
+
+.procura i{
+	position: absolute;
+    z-index: 2;
+    top: 11px;
+    left: 11px;
+    font-size: 26px;
+    color: #333131;
+    border-right: 1px solid #333131;
+    padding-right: 15px;
+}
+
+.cep-form{
+	font-weight: bold;
+}
+
+.cep-form input[type="text"]{
+	width: 50%;
+	height: 30px;
+	padding-left: 10px;
+	background-color: #d1d3d4;
+    font-size: 16px;
+    border: 0;
+    float: left;
+}
+
+	::-webkit-input-placeholder {color: #57595B;}
+    :-moz-placeholder {color: #57595B;}
+    ::-moz-placeholder {color: #57595B;}
+    :-ms-input-placeholder {color: #57595B;}
+
+.cep-form input[type="submit"]{
+	width: 20%;
+	height: 20px;
+	margin-top: 2px;
+	margin-left: -25%;
+	height: 25px;
+	position: absolute;
+	background-color: white;
+	border: 1px solid;
+}
+
+.newsletter-form{
+	margin-top: 100px;
+	font-weight: bold;
+}
+
+.newsletter-form input[type="text"]{
+	width: 100%;
+	height: 50px;
+	padding-left: 10px;
+	background-color: #d1d3d4;
+    font-size: 16px;
+    border: 0;
+    float: left;
+}
+
+	::-webkit-input-placeholder {color: #57595B;}
+    :-moz-placeholder {color: #57595B;}
+    ::-moz-placeholder {color: #57595B;}
+    :-ms-input-placeholder {color: #57595B;}
+
+.newsletter-form input[type="submit"]{
+	width: 20%;
+	height: 30%;
+	margin-top: 10px;
+	margin-left: -25%;
+	height: 25px;
+	position: absolute;
+	background-color: white;
+	border: 1px solid;
+}
+
+.nav-social{
+	margin-top: 100px;
+}
+
+.nav-social{
+	float: left;
+	position: relative;
+	font-weight: bold;
+}
+
+.nav-social ul li{
+	display: inline;
+	margin: 10px;
+	float: left;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 50px;
+}
+
+.nav-social i{
+	font-size: 25px;
+    color: #000000;
+}
+
+.footer{
+	background-image: url("../img/img-footer.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	position: relative;
+	width: 100%;
+	margin-top: 100px;
+	background-color: #f47d31;
+	min-height: 325px;
+}
+
+.footer ul li {
+
+	color: #fff;
+}
+
+.footer a{
+	color: #fff;
+}
+
+.footer p{
+	color: #fff;
+	margin-top: 50px;
+}
+
+.direitos p{
+	font-size: 12px;
+	float: left;
+}
+
+.direitos a{
+	margin-top: 50px;
+}
