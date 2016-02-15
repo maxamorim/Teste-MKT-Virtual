@@ -573,7 +573,7 @@ body{
     top: 7.25em;
     background-color: #FFF;
     border: 1px solid #000;
-    width: 40%;
+    width: 500px;
     height: 100px;
     text-align: center;
     margin-left: 30%;
@@ -582,27 +582,27 @@ body{
 .local{
 	height: 55px;
 	width: 200px;
-    float: left;
-    border: 1px solid #000;
-    position: relative;
-    padding: 7px 0 0 40px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #000;
-    text-align: center;
-    line-height: 12px;
-    margin: 20px;
+  float: left;
+  border: 1px solid #000;
+  position: relative;
+  padding: 7px 0 0 40px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  line-height: 12px;
+  margin: 20px;
 }
 
 .procura i{
 	position: absolute;
-    z-index: 2;
-    top: 11px;
-    left: 11px;
-    font-size: 26px;
-    color: #333131;
-    border-right: 1px solid #333131;
-    padding-right: 15px;
+  z-index: 2;
+  top: 11px;
+  left: 11px;
+  font-size: 26px;
+  color: #333131;
+  border-right: 1px solid #333131;
+  padding-right: 15px;
 }
 
 .cep-form{
@@ -696,6 +696,7 @@ body{
 	background-image: url("../img/img-footer.jpg");
 	background-repeat: no-repeat;
 	background-position: right;
+  background-size: 45% 100%;
 	position: relative;
 	width: 100%;
 	margin-top: 100px;
@@ -704,15 +705,15 @@ body{
 }
 
 .footer ul li {
-
+  
 	color: #fff;
 }
 
-.footer a{
+.rodape a{
 	color: #fff;
 }
 
-.footer p{
+.footer nav{
 	color: #fff;
 	margin-top: 50px;
 }
@@ -720,8 +721,45 @@ body{
 .direitos p{
 	font-size: 12px;
 	float: left;
+  color: #fff;
+  margin-top: 50px;
+  
 }
 
 .direitos a{
-	margin-top: 50px;
+
+  float: right;
+	
+}
+
+.sac{
+  color: #fff;
+  margin-top: 50px;
+}
+
+.btn-boleto{
+  width: 200px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border: 1px solid #000;
+  position: relative;
+  padding: 8px 10px 0 70px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  line-height: 12px;
+  float: left;
+
+}
+
+.btn-boleto i{
+  position: absolute;
+  z-index: 2;
+  top: 7px;
+  left: 11px;
+  font-size: 26px;
+  color: #000000;
+  border-right: 1px solid #333131;
+  padding-right: 15px;
 }
