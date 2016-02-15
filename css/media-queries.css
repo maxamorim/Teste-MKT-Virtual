@@ -82,16 +82,37 @@
 		margin-top: 30%;
 	}
 
+	.hovereffect-1 p{
+		display: none;
+	}
+
+	.hovereffect-2 p{
+		display: none;
+	}
+
+	.hovereffect-2 h1{
+		margin-top: 30%;
+	}
+
+	.hovereffect-3 p{
+		display: none;
+	}
+
+	.hovereffect-3 h1, .hovereffect-3 h2{
+		margin-top: -10%;
+	}
+
+	.hovereffect-4 p{
+		display: none;
+	}
+
+	.hovereffect-4 h1, .hovereffect-4 h2{
+		margin-top: -10%;
+	}
+
 	.procura{
 		width: 100%;
 		margin: 0;
-	}
-}
-
-
-@media (max-width: 600px) {
-	.imagens{
-		margin-top: 40%;
 	}
 }
 
@@ -100,11 +121,35 @@
 		width: 40%;
 	}
 
+	.imagens{
+		margin-top: 40%;
+	}
+
 }
 
 @media (max-width: 468px) {
+	.logo{
+		margin-left: 25%;
+	}
+
 	.imagens{
 		margin-top: 50%;
+	}
+
+	.hovereffect-1 h1, .hovereffect-1 h2{
+		font-size: 12px;
+	}
+
+	.hovereffect-2 h1, .hovereffect-2 h2{
+		font-size: 12px;
+	}
+
+	.hovereffect-3 h1, .hovereffect-3 h2{
+		font-size: 12px;
+	}
+
+	.hovereffect-4 h1, .hovereffect-4 h2{
+		font-size: 12px;
 	}
 
 
@@ -119,5 +164,9 @@
 @media (max-width: 385px) {
 	.imagens{
 		margin-top: 75%;
+	}
+
+	.hovereffect-2 button{
+		font-size: 10px;
 	}
 }
