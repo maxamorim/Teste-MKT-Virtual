@@ -569,14 +569,14 @@ body{
 
 .procura{
 	position: absolute;
-    z-index: 2;
-    top: 7.25em;
-    background-color: #FFF;
-    border: 1px solid #000;
-    width: 500px;
-    height: 100px;
-    text-align: center;
-    margin-left: 30%;
+  z-index: 2;
+  top: 7.25em;
+  background-color: #FFF;
+  border: 1px solid #000;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  margin-left: 30%;
 }
 
 .local{

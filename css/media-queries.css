@@ -82,6 +82,11 @@
 		margin-top: 30%;
 	}
 
+	.proposta{
+		margin-top: -12%;
+		width: 92%;
+	}
+
 	.hovereffect-1 p{
 		display: none;
 	}
@@ -125,6 +130,10 @@
 		margin-top: 40%;
 	}
 
+	.proposta{
+		width: 90%;
+	}
+
 }
 
 @media (max-width: 468px) {
@@ -134,6 +143,10 @@
 
 	.imagens{
 		margin-top: 50%;
+	}
+
+	.proposta{
+		width: 88%;
 	}
 
 	.hovereffect-1 h1, .hovereffect-1 h2{
@@ -152,12 +165,33 @@
 		font-size: 12px;
 	}
 
+	.procura{
+		height: 200px;
+	}
+
+	.local{
+		width: 90%;
+	}
+
+	.cep-form{
+		width: 100%;
+	}
+
+	.cep-form input[type="text"]{
+		margin-left: 20px;
+		width: 90%;
+	}
+
 
 }
 
 @media (max-width: 413px) {
 	.imagens{
 		margin-top: 60%;
+	}
+
+	.proposta{
+		width: 85%;
 	}
 }
 
@@ -166,7 +200,20 @@
 		margin-top: 75%;
 	}
 
+	.proposta{
+		width: 83%;
+	}
+
+	.hovereffect-2 h1{
+		margin-top: 0px;
+	}
+
 	.hovereffect-2 button{
+
+		font-size: 8px;
+	}
+
+	.cep-form input[type="submit"]{
 		font-size: 10px;
 	}
 }
